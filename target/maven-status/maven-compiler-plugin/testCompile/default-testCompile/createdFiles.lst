@@ -1,0 +1,4 @@
+tests/CardTesting.class
+tests/ListTesting.class
+tests/DeleteBoardTesting.class
+tests/BoardTesting.class

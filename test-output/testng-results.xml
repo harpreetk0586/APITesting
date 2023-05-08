@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-04T11:57:28 EDT" name="Suite" finished-at="2023-04-04T11:57:37 EDT" duration-ms="9415">
+    <groups>
+    </groups>
+    <test started-at="2023-04-04T11:57:28 EDT" name="Test" finished-at="2023-04-04T11:57:37 EDT" duration-ms="9415">
+      <class name="tests.BoardTesting">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.BoardTesting@49912c99]" started-at="2023-04-04T11:57:28 EDT" name="setup" finished-at="2023-04-04T11:57:29 EDT" duration-ms="958" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createBoard()[pri:1, instance:tests.BoardTesting@49912c99]" started-at="2023-04-04T11:57:29 EDT" name="createBoard" finished-at="2023-04-04T11:57:32 EDT" duration-ms="2899" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBoard -->
+        <test-method signature="getBoard()[pri:2, instance:tests.BoardTesting@49912c99]" started-at="2023-04-04T11:57:32 EDT" name="getBoard" finished-at="2023-04-04T11:57:32 EDT" duration-ms="439" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBoard -->
+        <test-method signature="updateBoard()[pri:3, instance:tests.BoardTesting@49912c99]" started-at="2023-04-04T11:57:32 EDT" name="updateBoard" finished-at="2023-04-04T11:57:32 EDT" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBoard -->
+        <test-method signature="getUpdatedBoard()[pri:4, instance:tests.BoardTesting@49912c99]" started-at="2023-04-04T11:57:32 EDT" name="getUpdatedBoard" finished-at="2023-04-04T11:57:33 EDT" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUpdatedBoard -->
+        <test-method is-config="true" signature="inserBoardIdIntoAttribute(org.testng.ITestContext)[pri:0, instance:tests.BoardTesting@49912c99]" started-at="2023-04-04T11:57:33 EDT" name="inserBoardIdIntoAttribute" finished-at="2023-04-04T11:57:33 EDT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7282af25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inserBoardIdIntoAttribute -->
+      </class> <!-- tests.BoardTesting -->
+      <class name="tests.ListTesting">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.ListTesting@223aa2f7]" started-at="2023-04-04T11:57:33 EDT" name="setup" finished-at="2023-04-04T11:57:33 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7282af25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createList()[pri:1, instance:tests.ListTesting@223aa2f7]" started-at="2023-04-04T11:57:33 EDT" name="createList" finished-at="2023-04-04T11:57:33 EDT" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createList -->
+        <test-method signature="getList()[pri:2, instance:tests.ListTesting@223aa2f7]" started-at="2023-04-04T11:57:33 EDT" name="getList" finished-at="2023-04-04T11:57:33 EDT" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getList -->
+        <test-method signature="updateList()[pri:3, instance:tests.ListTesting@223aa2f7]" started-at="2023-04-04T11:57:33 EDT" name="updateList" finished-at="2023-04-04T11:57:34 EDT" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateList -->
+        <test-method signature="getUpdatedList()[pri:4, instance:tests.ListTesting@223aa2f7]" started-at="2023-04-04T11:57:34 EDT" name="getUpdatedList" finished-at="2023-04-04T11:57:34 EDT" duration-ms="234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUpdatedList -->
+        <test-method is-config="true" signature="inserBoardIdIntoAttribute(org.testng.ITestContext)[pri:0, instance:tests.ListTesting@223aa2f7]" started-at="2023-04-04T11:57:34 EDT" name="inserBoardIdIntoAttribute" finished-at="2023-04-04T11:57:34 EDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7282af25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inserBoardIdIntoAttribute -->
+      </class> <!-- tests.ListTesting -->
+      <class name="tests.DeleteBoardTesting">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.DeleteBoardTesting@193f604a]" started-at="2023-04-04T11:57:35 EDT" name="setup" finished-at="2023-04-04T11:57:35 EDT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7282af25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deleteBoard()[pri:1, instance:tests.DeleteBoardTesting@193f604a]" started-at="2023-04-04T11:57:35 EDT" name="deleteBoard" finished-at="2023-04-04T11:57:37 EDT" duration-ms="1845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBoard -->
+        <test-method signature="verifyBoardDeleted()[pri:2, instance:tests.DeleteBoardTesting@193f604a]" started-at="2023-04-04T11:57:37 EDT" name="verifyBoardDeleted" finished-at="2023-04-04T11:57:37 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBoardDeleted -->
+      </class> <!-- tests.DeleteBoardTesting -->
+      <class name="tests.CardTesting">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:tests.CardTesting@6d3a388c]" started-at="2023-04-04T11:57:34 EDT" name="setup" finished-at="2023-04-04T11:57:34 EDT" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7282af25]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createCard()[pri:1, instance:tests.CardTesting@6d3a388c]" started-at="2023-04-04T11:57:34 EDT" name="createCard" finished-at="2023-04-04T11:57:34 EDT" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createCard -->
+        <test-method signature="getCard()[pri:2, instance:tests.CardTesting@6d3a388c]" started-at="2023-04-04T11:57:34 EDT" name="getCard" finished-at="2023-04-04T11:57:35 EDT" duration-ms="230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getCard -->
+        <test-method signature="updateList()[pri:3, instance:tests.CardTesting@6d3a388c]" started-at="2023-04-04T11:57:35 EDT" name="updateList" finished-at="2023-04-04T11:57:35 EDT" duration-ms="274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateList -->
+        <test-method signature="getUpdatedCard()[pri:4, instance:tests.CardTesting@6d3a388c]" started-at="2023-04-04T11:57:35 EDT" name="getUpdatedCard" finished-at="2023-04-04T11:57:35 EDT" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUpdatedCard -->
+      </class> <!-- tests.CardTesting -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
